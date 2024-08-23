@@ -1,67 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nadim</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-    <div class="nav">
-        <div class="header-logo">Header Logo</div>
-        <div class="links-group">
-            <div class="link">link one</div>
-            <div class="link">link two</div>
-            <div class="link">link three</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Real header div (small header + hero; this is a hotfix) -->
+    <div class="hero-header">
+      <!-- Header div -->
+      <div class="header">
+          <!-- Header logo -->
+          <div class="header-logo">Header Logo</div>
+          <!-- Header links -->
+           <div class="header-links">
+              <a href="#link1">header link 1</a>
+              <a href="#link2">header link 2</a>
+              <a href="#link3">header link 3</a>
+           </div>
+      </div>
+  
+      <!-- Hero div -->
+      <div class="hero">
+        <div class="hero-text">
+          <div class="hero-title">This website is HARDCORE</div>
+          <div class="hero-subtitle">And so are you. Don't let the doom and gloom get to you. Off we go into the wild pale yonder, together.</div>
+          <div class="hero-button">
+            <button>Sign Up</button>
+          </div>
         </div>
+        <div class="hero-image">
+        </div>
+      </div>
     </div>
 
-    <div class="hero">
-        <div class="text">
-            <h1>This website is awesome</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet rem id sapiente magni error facilis ratione animi excepturi numquam dolore?</p>
-            <button>Sign up</button>
+    <!-- Random info div -->
+    <div class="random-info-container">
+      <div class="random-info">It's Disco, baby.</div>
+      <div class="carousel-container">
+        <div class="carousel" id="cr1">
+          <div class="thumbnail"><img src="./small-harry.jpg" alt="HDB"></div>
+          <p class="caption">detective arriving</p>
         </div>
-        <div class="image">
-            <img src="unsplash.com" alt="some image">
+        <div class="carousel" id="cr2">
+          <div class="thumbnail"><img src="./small-harry.jpg" alt="HDB"></div>
+          <p class="caption">apes dukin' it out</p>
         </div>
+        <div class="carousel" id="cr3">
+          <div class="thumbnail"><img src="./small-harry.jpg" alt="HDB"></div>
+          <p class="caption">harry! you look like shit!</p>
+        </div>
+        <div class="carousel" id="cr4">
+          <div class="thumbnail"><img src="./small-harry.jpg" alt="HDB"></div>
+          <p class="caption">ur body betrays ur degen</p>
+        </div>
+      </div>
     </div>
 
-    <div class="random-info">
-        <div class="header-text">Some random information</div>
-        <div class="illustrations">
-            <div class="box">
-                <div class="thumbnail"></div>
-                <p>subtext</p>
-            </div>
-            <div class="box">
-                <div class="thumbnail"></div>
-                <p>subtext</p>
-            </div>
-            <div class="box">
-                <div class="thumbnail"></div>
-                <p>subtext</p>
-            </div>
-            <div class="box">
-                <div class="thumbnail"></div>
-                <p>subtext</p>
-            </div>
+    <!-- Quote div -->
+    <div class="quote-container">
+      <div class="quote-and-sub">
+        <blockquote class="quote">When you make the wrong decision, you can tell right away. It's the right decisions that won't leave you alone...</blockquote>
+        <p class="attribution">- Kim Kitsuragi</p>
+      </div>
+    </div>
+    
+    <!-- Call to action div -->
+    <div class="call-container">
+      <div class="call-content">
+        <div class="call-words">
+          <p class="title">Aces High!</p>
+          <p class="subtitle">Roll the dice, and remember, in life you don't get second chances.</p>
         </div>
-    </div>
-
-    <div class="quote-section">
-        <p>quote</p>
-        <p>author</p>
-    </div>
-
-    <div class="footer">
-        <div class="blue-box">
-            <div class="call-to-action">
-                <p>Call!</p>
-                <p>Some more subtext...</p>
-            </div>
-            <button>Sign up</button>
+        <div class="call-button">
+          <button>Roll</button>
         </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
